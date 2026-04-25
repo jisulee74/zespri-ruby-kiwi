@@ -67,6 +67,7 @@ nav {
     font-size: 1.5rem;
     color: var(--primary-ruby);
     cursor: pointer;
+    z-index: 1001;
 }
 
 .logo {
@@ -254,8 +255,33 @@ nav {
     .hero { flex-direction: column; padding-top: 120px; height: auto; text-align: center; padding-bottom: 50px; }
     .hero-content h1 { font-size: 3.5rem; }
     .hero-image img { width: 100%; margin-top: 50px; }
-    .nav-links { display: none; } /* Simplified for demo, usually use a hamburger menu */
+    
     .menu-btn { display: block; }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: var(--white);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        box-shadow: -10px 0 30px rgba(0,0,0,0.1);
+        transition: all 0.4s ease;
+        z-index: 1000;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-links a {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 768px) {
