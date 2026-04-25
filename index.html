@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="site-title">제스프리 루비 키위 | Zespri Ruby Kiwi</title>
+    <meta name="description" content="달콤한 루비빛 유혹, 제스프리 루비 키위를 만나보세요. 항산화 성분이 풍부한 프리미엄 키위입니다.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <i class="fas fa-kiwi-bird" style="color: #4A7C2D; margin-right: 10px;"></i>
+            Zespri <span>Ruby</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" data-i18n="nav-home">홈페이지</a>
+            <a href="#features" data-i18n="nav-product">제품소개</a>
+            <a href="#story" data-i18n="nav-story">브랜드 스토리</a>
+            <a href="#contact" data-i18n="nav-contact">고객문의</a>
+            <a href="javascript:void(0)" class="lang-switch" id="lang-toggle">EN</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 id="hero-title">
+                <span data-i18n="hero-sub">자연이 빚은 보석,</span>
+                <span data-i18n="hero-main">루비 키위의 탄생</span>
+            </h1>
+            <p data-i18n="hero-desc">
+                제스프리가 오랜 연구 끝에 선보이는 특별한 루비 키위. 
+                선명한 루비빛 속살과 입안 가득 퍼지는 달콤한 과즙을 경험해보세요.
+            </p>
+            <div class="hero-btns">
+                <a href="#features" class="btn btn-primary" data-i18n="more-btn">자세히 보기</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/ruby_kiwi.png" alt="Zespri Ruby Kiwi">
+            <div class="floating-tag tag-1" data-i18n="tag-1">🍓 베리향의 달콤함</div>
+            <div class="floating-tag tag-2" data-i18n="tag-2">✨ 비타민 C 가득</div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="section-title">
+            <h2 data-i18n="features-title">Ruby Kiwi Special</h2>
+            <p data-i18n="features-subtitle">루비 키위만이 가진 세 가지 특별함</p>
+        </div>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-gem" style="color: #D11F3C;"></i>
+                </div>
+                <h3 data-i18n="feat-1-title">눈부신 루비 컬러</h3>
+                <p data-i18n="feat-1-desc">항산화 성분인 안토시아닌이 함유되어 붉은 빛을 띠며, 보기만 해도 즐거운 특별한 디저트가 됩니다.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-utensils" style="color: #FFB800;"></i>
+                </div>
+                <h3 data-i18n="feat-2-title">색다른 달콤함</h3>
+                <p data-i18n="feat-2-desc">일반 키위와는 다른 은은한 베리류의 풍미와 압도적인 당도를 자랑합니다.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-heartbeat" style="color: #4A7C2D;"></i>
+                </div>
+                <h3 data-i18n="feat-3-title">풍부한 영양소</h3>
+                <p data-i18n="feat-3-desc">비타민 C, 칼륨, 엽산 등 필수 영양소가 가득해 활기찬 하루를 책임집니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="story" id="story" style="padding: 100px 10%; background: #fdf2f4;">
+        <div style="max-width: 1000px; margin: 0 auto;">
+            <div style="text-align: center; margin-bottom: 40px;">
+                <h2 data-i18n="story-title" style="font-size: 2.8rem; color: #D11F3C; margin-bottom: 1rem;">Brand Story</h2>
+                <div style="width: 60px; height: 4px; background: #FFB800; margin: 0 auto;"></div>
+            </div>
+            <div style="display: flex; gap: 40px; align-items: stretch; flex-wrap: wrap;">
+                <div style="flex: 1.5; min-width: 300px;">
+                    <p data-i18n="story-p1" style="font-size: 1.1rem; color: #333; line-height: 1.8; margin-bottom: 1.5rem;">
+                        제스프리는 뉴질랜드의 키위 재배 농가들이 모여 만든 세계적인 키위 협동조합입니다. 1997년 설립 이후, 전 세계 50여 개국에 고품질의 키위를 공급하며 프리미엄 과일 브랜드의 대명사가 되었습니다.
+                    </p>
+                    <p data-i18n="story-p2" style="font-size: 1.1rem; color: #333; line-height: 1.8;">
+                        특히 루비 키위는 제스프리가 20년이 넘는 긴 시간 동안 오직 자연적인 품종 개량 방식을 통해 탄생시킨 혁신적인 제품입니다. 선명한 루비빛 속살에는 항산화 성분인 안토시아닌이 풍부하게 담겨 있으며, 기존 키위에서 경험하지 못한 베리류의 은은한 달콤함을 선사합니다.
+                    </p>
+                </div>
+                <div style="flex: 1; min-width: 300px; background: white; border-radius: 25px; box-shadow: 0 15px 40px rgba(0,0,0,0.08); overflow: hidden; display: flex; flex-direction: column;">
+                    <div style="height: 180px; overflow: hidden;">
+                        <img src="assets/zespri.jpeg" alt="Zespri Kiwi Brothers" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px;">
+                        <h4 data-i18n="story-stat-title" style="color: #D11F3C; margin-bottom: 1.2rem; font-size: 1.3rem;">Zespri Numbers</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 1rem;">
+                            <li style="margin-bottom: 12px; display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: #4A7C2D; margin-right: 10px;"></i>
+                                <span data-i18n="story-stat-1">20년 이상의 연구 기간</span>
+                            </li>
+                            <li style="margin-bottom: 12px; display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: #4A7C2D; margin-right: 10px;"></i>
+                                <span data-i18n="story-stat-2">뉴질랜드 농가 협동조합</span>
+                            </li>
+                            <li style="display: flex; align-items: center;">
+                                <i class="fas fa-check-circle" style="color: #4A7C2D; margin-right: 10px;"></i>
+                                <span data-i18n="story-stat-3">100% 자연 품종 개량</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="buy" id="buy" style="padding: 100px 10%; text-align: center;">
+        <h2 data-i18n="buy-title" style="font-size: 2.5rem; margin-bottom: 3rem;">Ready to Taste?</h2>
+        <div style="display: inline-block; padding: 40px; border: 2px dashed #D11F3C; border-radius: 20px;">
+            <p data-i18n="buy-cta" style="font-size: 1.2rem; margin-bottom: 2rem;">지금 바로 전국 마트와 온라인 몰에서 루비 키위를 만나보세요!</p>
+            <a href="#" class="btn btn-primary" data-i18n="buy-now-btn">구매처 확인하기</a>
+        </div>
+    </section>
+
+    <footer id="contact" style="padding: 80px 10%; background: #2D2D2D; color: white; text-align: center;">
+        <div style="margin-bottom: 40px;">
+            <h3 data-i18n="contact-title" style="color: #FFB800; margin-bottom: 1rem;">Contact Us</h3>
+            <p data-i18n="contact-info">Email: info@zespri-ruby.com | Tel: 080-123-4567</p>
+        </div>
+        <p>&copy; 2026 Zespri Ruby Kiwi Landing Page. Created with ✨</p>
+    </footer>
+
+    <script>
+        const translations = {
+            'ko': {
+                'nav-home': '홈페이지',
+                'nav-product': '제품소개',
+                'nav-story': '브랜드 스토리',
+                'nav-contact': '고객문의',
+                'hero-sub': '자연이 빚은 보석,',
+                'hero-main': '루비 키위의 탄생',
+                'hero-desc': '제스프리가 오랜 연구 끝에 선보이는 특별한 루비 키위. 선명한 루비빛 속살과 입안 가득 퍼지는 달콤한 과즙을 경험해보세요.',
+                'more-btn': '자세히 보기',
+                'tag-1': '🍓 베리향의 달콤함',
+                'tag-2': '✨ 비타민 C 가득',
+                'features-title': 'Ruby Kiwi Special',
+                'features-subtitle': '루비 키위만이 가진 세 가지 특별함',
+                'feat-1-title': '눈부신 루비 컬러',
+                'feat-1-desc': '항산화 성분인 안토시아닌이 함유되어 붉은 빛을 띠며, 보기만 해도 즐거운 특별한 디저트가 됩니다.',
+                'feat-2-title': '색다른 달콤함',
+                'feat-2-desc': '일반 키위와는 다른 은은한 베리류의 풍미와 압도적인 당도를 자랑합니다.',
+                'feat-3-title': '풍부한 영양소',
+                'feat-3-desc': '비타민 C, 칼륨, 엽산 등 필수 영양소가 가득해 활기찬 하루를 책임집니다.',
+                'story-title': '브랜드 스토리',
+                'story-p1': '제스프리는 뉴질랜드의 키위 재배 농가들이 모여 만든 세계적인 키위 협동조합입니다. 1997년 설립 이후, 전 세계 50여 개국에 고품질의 키위를 공급하며 프리미엄 과일 브랜드의 대명사가 되었습니다.',
+                'story-p2': '특히 루비 키위는 제스프리가 20년이 넘는 긴 시간 동안 오직 자연적인 품종 개량 방식을 통해 탄생시킨 혁신적인 제품입니다. 선명한 루비빛 속살에는 항산화 성분인 안토시아닌이 풍부하게 담겨 있으며, 기존 키위에서 경험하지 못한 베리류의 은은한 달콤함을 선사합니다.',
+                'story-stat-title': '제스프리 핵심 수치',
+                'story-stat-1': '20년 이상의 연구 기간',
+                'story-stat-2': '뉴질랜드 농가 협동조합',
+                'story-stat-3': '100% 자연 품종 개량',
+                'buy-title': '맛볼 준비가 되셨나요?',
+                'buy-cta': '지금 바로 전국 마트와 온라인 몰에서 루비 키위를 만나보세요!',
+                'buy-now-btn': '구매처 확인하기',
+                'contact-title': '고객 문의',
+                'contact-info': '이메일: info@zespri-ruby.com | 전화: 080-123-4567'
+            },
+            'en': {
+                'nav-home': 'Home',
+                'nav-product': 'Product',
+                'nav-story': 'Our Story',
+                'nav-contact': 'Contact',
+                'hero-sub': "Nature's Masterpiece,",
+                'hero-main': 'Zespri Ruby Kiwi',
+                'hero-desc': "Experience the extraordinary Ruby Kiwi, born from years of Zespri's research. Enjoy the vibrant ruby-red flesh and the sweet juice.",
+                'more-btn': 'Learn More',
+                'tag-1': '🍓 Berry-like Sweetness',
+                'tag-2': '✨ Rich in Vitamin C',
+                'features-title': 'Ruby Kiwi Special',
+                'features-subtitle': 'Three unique features of Ruby Kiwi',
+                'feat-1-title': 'Stunning Ruby Color',
+                'feat-1-desc': 'Contains anthocyanins, giving it a vibrant red color that makes it a delightful treat for the eyes.',
+                'feat-2-title': 'Unique Sweetness',
+                'feat-2-desc': 'Boasts a subtle berry flavor and overwhelming sweetness that sets it apart from ordinary kiwis.',
+                'feat-3-title': 'Packed with Nutrients',
+                'feat-3-desc': 'Full of essential nutrients like Vitamin C, potassium, and folate to power your day.',
+                'story-title': 'Brand Story',
+                'story-p1': 'Zespri is a world-leading kiwi cooperative formed by New Zealand growers. Since its establishment in 1997, it has supplied high-quality kiwis to over 50 countries, becoming synonymous with premium fruit.',
+                'story-p2': 'Ruby Kiwi is an innovative product born from over 20 years of natural breeding research. Its vibrant ruby flesh is rich in anthocyanins, offering a unique berry-like sweetness never before experienced in kiwis.',
+                'story-stat-title': 'Zespri Key Facts',
+                'story-stat-1': '20+ Years of Research',
+                'story-stat-2': 'NZ Growers Cooperative',
+                'story-stat-3': '100% Natural Breeding',
+                'buy-title': 'Ready to Taste?',
+                'buy-cta': 'Meet Ruby Kiwi at supermarkets and online malls now!',
+                'buy-now-btn': 'Check Retailers',
+                'contact-title': 'Contact Us',
+                'contact-info': 'Email: info@zespri-ruby.com | Tel: 080-123-4567'
+            }
+        };
+
+        let currentLang = 'ko';
+
+        function toggleLanguage() {
+            currentLang = currentLang === 'ko' ? 'en' : 'ko';
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                el.textContent = translations[currentLang][key];
+            });
+            document.getElementById('lang-toggle').textContent = currentLang === 'ko' ? 'EN' : 'KR';
+            document.documentElement.lang = currentLang;
+        }
+
+        document.getElementById('lang-toggle').addEventListener('click', toggleLanguage);
+
+        // Simple Scroll Animation
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.padding = '1rem 10%';
+                nav.style.boxShadow = '0 5px 20px rgba(0,0,0,0.1)';
+            } else {
+                nav.style.padding = '1.5rem 10%';
+                nav.style.boxShadow = 'none';
+            }
+        });
+
+        // Smooth Scroll for Navigation
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
